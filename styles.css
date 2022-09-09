@@ -26,6 +26,9 @@
     vertical-align: middle;
     display: flex;
     background-color: rgb(234, 234, 234);
+    height: 7vh;
+    max-height: 80px;
+    min-height: 40px;
 }
 
 #menu-aside{
@@ -41,10 +44,21 @@
 }
 
 .menu-up-button{
-    min-width: 10vh;
-    padding: auto;
-    margin: 0 auto;
+    height: 100%;
+    width: 1fr;
+    margin: auto;
     background-color: rgb(234, 234, 234);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.menu-up-button-text{ 
+    color: black;
+    font-weight: bolder;
+    font-family: Arial black;
+    font-size: 1.7vw;
+    text-decoration: none;
 }
 
 .full-width-element{
