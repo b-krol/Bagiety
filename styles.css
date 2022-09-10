@@ -58,11 +58,18 @@
     display: flex;
     word-wrap: break-word;
     width: 100%;
+    height: 78vh;
 }
 
 #menu-aside{
     height: 78vh;
     width: 10%;
+    height: min-content;
+    padding: auto;
+}
+
+#menu-aside-button-area{
+    width: 100%;
     background-color: rgb(234, 234, 234);
     display: flex;
     flex-wrap: wrap;
@@ -84,14 +91,43 @@
     font-family: Arial black;
     font-size: 1.3vw;
     text-decoration: none;
-    padding: 1vw;
+}
+
+#menu-aside-shower{
+    margin: 0;
+    align-content: flex-start;
+    display: block;
+    width: min-content;
+}
+
+#menu-aside-shower-text{
+    text-align: left;
+    vertical-align: top;
+    color: black;
+    font-weight: bolder;
+    font-family: Arial black;
+    font-size: 1.8vw;
+    text-decoration: none;
+    margin: 0;
+    margin-right: none;
+    background-color: rgb(234, 234, 234);
+    height: min-content;
+    width: min-content;
+    border-bottom-right-radius: 0.8vw;
 }
 
 
 #content{
-    width: 90%;
+    width: 100%;
+    text-align: left;
     display: flex;
-    overflow-x: scroll;
+    word-wrap: break-word;
+}
+
+#text-content{
+    width: 100%;
+    word-wrap:break-word;
+    text-align: left;
 }
 
 #footer{

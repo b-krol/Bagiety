@@ -24,18 +24,24 @@
 
 			<!--centrum strony-->
 			<div id="central-container" class="full-width-element">
+				
 				<!--boczne menu-->
-				<div id="menu-aside">
-					<div class="menu-aside-button" id=""><p class="menu-aside-button-text">Aktualności</p></div>
-					<div class="menu-aside-button" id=""><p class="menu-aside-button-text">Oferta</p></div>
-					<div class="menu-aside-button" id=""><p class="menu-aside-button-text">Certyfikaty</p></div>
-					<div class="menu-aside-button" id=""><p class="menu-aside-button-text">Galeria</p></div>
-					<div class="menu-aside-button" id=""><p class="menu-aside-button-text">Formularze</p></div>
-					<div class="menu-aside-button" id=""><p class="menu-aside-button-text">Kontakt</p></div>
-				</div>
-				<!--element z zawartością-->
 				<div id="content">
-					<div width="100%">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+					<div id="menu-aside">
+						<div id="menu-aside-button-area">
+							<div class="menu-aside-button" id=""><p class="menu-aside-button-text">Aktualności</p></div>
+							<div class="menu-aside-button" id=""><p class="menu-aside-button-text">Oferta</p></div>
+							<div class="menu-aside-button" id=""><p class="menu-aside-button-text">Certyfikaty</p></div>
+							<div class="menu-aside-button" id=""><p class="menu-aside-button-text">Galeria</p></div>
+							<div class="menu-aside-button" id=""><p class="menu-aside-button-text">Formularze</p></div>
+							<div class="menu-aside-button" id=""><p class="menu-aside-button-text">Kontakt</p></div>
+						</div>
+						<div id="menu-aside-shower">
+							<p id="menu-aside-shower-text"><ion-icon name="reorder"></ion-icon></p>
+						</div>
+					</div>
+					<!--element z zawartością-->
+					<div id="text-content">xxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxx</div>
 				</div>
 			</div>
 
@@ -43,6 +49,23 @@
 			<div id="footer" class="full-width-element">
 
 			</div>
+
+		
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+			<script>
+				$("#menu-aside-shower").click(function () {
+ 				if ($("#menu-aside-button-area").first().is(":hidden")) 
+				{
+ 			    	$("#menu-aside-button-area").slideDown("slow");
+					$("#menu-aside").css("position", "relative")
+ 				} else 
+				{
+ 			    	$("#menu-aside-button-area").slideUp("slow");
+					 $("#menu-aside").css("position", "absolute")
+			  	}
+			});
+			</script>
+			<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 	</body>
 	
 	
