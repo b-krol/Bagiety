@@ -63,13 +63,13 @@
 
 #menu-aside{
     height: 78vh;
-    width: 10%;
+    width: min-content;
     height: min-content;
     padding: auto;
 }
 
 #menu-aside-button-area{
-    width: 100%;
+    width: 10vw;
     background-color: rgb(234, 234, 234);
     display: flex;
     flex-wrap: wrap;
