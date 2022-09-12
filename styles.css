@@ -141,11 +141,15 @@
 }
 
 #footer{
-
+    height: min-content;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 0%;
 }
 
 #footer-informations-area{
-
+    display: none;
 }
 
 #footer-shower{
