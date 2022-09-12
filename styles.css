@@ -1,4 +1,8 @@
 
+:root{
+    --size: 13vh;
+}
+
 #body{
     margin: 0;
     padding: 0;
@@ -14,14 +18,22 @@
     background-size: cover;
     height: 15vh;
     min-height: 80px;
+    align-items: center;
+    display: flex;
+}
+
+#logo-area{
+    width: var(--size);
+    height: var(--size);
+    text-align: left;
+    margin-right: auto;
+    margin-left: 1%;
 }
 
 #logo{
-    width: max-content;
-    height: max-content;
-    vertical-align: middle;
-    align-items: flex-start;
-
+    height: var(--size);
+    width: var(--size);
+    margin: auto;
 }
 
 #menu-up{
