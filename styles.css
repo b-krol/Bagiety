@@ -28,11 +28,13 @@
     text-align: left;
     margin-right: auto;
     margin-left: 1%;
+    min-height: 70px;
+    min-width: 70px;
 }
 
 #logo{
-    height: var(--size);
-    width: var(--size);
+    height: 100%;
+    width: 100%;
     margin: auto;
 }
 
@@ -51,7 +53,6 @@
     height: 100%;
     width: 1fr;
     margin: auto;
-    background-color: rgb(234, 234, 234);
     display: flex;
     flex-wrap: wrap;
     align-content: center;
